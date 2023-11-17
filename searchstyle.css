@@ -1,0 +1,60 @@
+header
+{
+    background:blueviolet;
+    height:80px;
+    text-align: left;
+    font-size: 30px;
+}
+#menu
+{
+    float:left;
+    font-size:40;
+    margin-left:20px;
+    margin-top:20px;
+    color:silver;
+}
+a
+{
+    text-decoration: none;
+}
+.plink
+{
+    float:right;
+    font-size:20px;
+    border:1px solid;
+    margin:20px;
+    padding:5px;
+    background-color: sandybrown;
+    border-radius:5px;
+    color:black;
+}
+main
+{
+    height:700px;
+    background:silver;
+    margin-top:-20px;
+}
+table
+{
+    padding:100px;
+    padding-left:350px;
+}
+td
+{
+    padding-bottom:20px;
+}
+h2{
+    text-align: center;
+    padding-top:40px;
+}
+#n1
+{
+	text-align:center;
+	background:red;
+}
+button
+{
+	text-align:center;
+	background:#00ff40;
+	color:red;
+}

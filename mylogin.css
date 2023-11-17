@@ -1,0 +1,102 @@
+main
+{
+    height:300px;
+    width:500px;
+    margin-left:380px;
+    margin-top:180px;
+      border-top: 7px solid darkgray;
+    border-right: 7px solid darkgray;
+    background: gray;
+border-top-left-radius: 55px;
+border-bottom-right-radius: 55px;
+    
+    
+}
+main #heading
+{
+    margin-top:10px;
+    text-align: center;
+    font-size:30px;
+}
+#myform #uname
+{
+    margin-top:50px;
+    width:250px;
+    margin-bottom: 35px;
+    border-radius: 5px;
+}
+#myform #password
+{
+    width:250px;
+    margin-left:7px;
+    border-radius: 5px;
+}
+#myform #repassword
+{
+    width:250px;
+    
+    border-radius: 5px;
+}
+#myform input[id="repassword"]
+{
+    margin-top:25px;
+}
+#myform label[for="repassword"]
+{
+    margin-left:20px;
+}
+#myform label
+{
+    margin-left:60px;
+    margin-bottom: 20px;
+}
+#login
+{
+    width:100px;
+    margin: 40px 10px 30px 290px;
+    background:green;
+    color:black;
+    border-radius: 5px;
+    text-shadow: 2px;
+    border:1px solid black;
+}
+#login:hover
+{
+    background:teal;
+    transition: background 2s;
+    color:black;
+    transition:color 1s;
+}
+#uname:focus,#password:focus,#repassword:focus
+{
+    background: white;
+    border-bottom:2px solid #0000008132163;
+    outline: none;
+}
+#register
+{
+    width:499px;
+    height:40px;
+    background:#8080ff;
+    font-size:20px;
+    text-align: center;
+    font: italic;
+    text-decoration: none;
+    border:1px solid black;
+    border-radius:8px;
+    color:black;
+
+}
+a:link
+{
+    text-decoration: none;
+
+}
+body{
+
+background: url(paisa.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: center;
+
+}

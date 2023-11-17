@@ -1,0 +1,73 @@
+#menu
+{
+    float:left;
+    font-size:40;
+    margin-left:20px;
+    margin-top:20px;
+    color:silver;
+}
+.plink
+{
+    float:right;
+    font-size:20px;
+    border:1px solid;
+    margin:20px;
+    padding:5px;
+    background-color: sandybrown;
+    border-radius:5px;
+    color:black;
+}
+header
+{
+    background:blueviolet;
+    height:80px;
+    text-align: left;
+    font-size: 30px;
+}
+a div.plink:hover
+{
+    background:chartreuse;
+    transition: background 1s;
+    transition: font-size 1s;
+    font-size: 22px;
+}
+a:link
+{
+    text-decoration: none;
+}
+main
+{
+    background: silver;
+    height:560px;
+}
+table
+{
+    margin-left:150px;
+    padding-top:50px;
+}
+td
+{
+    padding-top:20px;
+}
+textarea
+{
+    resize: none;
+    font:italic;
+    
+}
+input[type="submit"]
+{
+    width:100px;
+    border:1px solid orange;
+    background:rgb(70, 70, 231);
+    color:seashell;
+    height:30px;
+    margin-left:700px;
+    margin-top:20px;
+}
+input[type="submit"]:hover
+{
+    background:green;
+    border-bottom: 2px solid rgb(10, 53, 134);
+    transition:background 2s ease-in-out;
+}
